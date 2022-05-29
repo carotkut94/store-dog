@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.death.datastoreplugin";
+option java_multiple_files = true;
+
+message UserStore {
+    bool isLoggedIn = 1;
+    string username = 2;
+}
